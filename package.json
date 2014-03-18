@@ -1,8 +1,8 @@
 {
-  "name": "noob_promises",
+  "name": "noob_pact",
   "version": "0.0.1",
   "description": "A simple promise library aimed at moving toward being Promises/A+ compliant",
-  "main": "promises.js",
+  "main": "pact.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

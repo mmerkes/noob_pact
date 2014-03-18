@@ -1,6 +1,6 @@
 "use strict";
 
-var Promise = require('../promises.js'),
+var Promise = require('../noob_pact.js'),
     chai = require('chai'),
     expect = chai.expect;
 

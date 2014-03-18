@@ -28,7 +28,7 @@ module.exports = function(grunt) {
           describe: true
         }
       },
-      files: ['Gruntfile.js', 'tests/**/*.js', 'promises.js']
+      files: ['Gruntfile.js', 'tests/**/*.js', 'noob_pact.js']
     }
   });
 
