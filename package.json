@@ -1,0 +1,21 @@
+{
+  "name": "noob_promises",
+  "version": "0.0.1",
+  "description": "A simple promise library aimed at moving toward being Promises/A+ compliant",
+  "main": "promises.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-simple-mocha": "~0.4.0",
+    "chai": "~1.9.0",
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0"
+  },
+  "dependencies": {
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
