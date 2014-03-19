@@ -1,5 +1,9 @@
 #NOOB Pact
 
+NOOB Pact is a basic implementation of a promise library designed for educational purposes aimed at moving toward complying with the Promises/A+ spec, but diverging at points to make the implementation simpler for noobs to follow and use and adding convenience methods like `always`.
+
+A series of blog posts will follow on [NOOBjs.org](http://noobjs.org) that will walk the JavaScripter through how promises work and how to use them. Stayed tunned! Also, expect ample commenting in the code to follow.
+
 ##Installation
 
 **Server Side**
