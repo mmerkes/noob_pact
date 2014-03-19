@@ -60,14 +60,14 @@ And that's it!
 
 ##Documentation
 
-*[then](#then)
-*[onFulfilled](#onFulfilled)
-*[onRejected](#onRejected)
-*[always](#always)
-*[resolve](#resolve)
-*[reject](#reject)
-*[Chaining](#chaining)
-*[Order of Execution](#order)
+* [then](#then)
+* [onFulfilled](#onFulfilled)
+* [onRejected](#onRejected)
+* [always](#always)
+* [resolve](#resolve)
+* [reject](#reject)
+* [Chaining](#chaining)
+* [Order of Execution](#order)
 
 <h3 id="then">Pact.then( onFulfilled, onRejected, always )</h3>
 
@@ -125,7 +125,7 @@ And that's it!
     promise.resolve( 'Oops...' );
     // logs 'Oops'
 
-<h3 id="chaining">Chaining
+<h3 id="chaining">Chaining</h3>
 
 `then`, `onFulfilled`, `onRejected`, and `always` all return the promise object to enable chaining, and you can add as many callbacks to the queue as you like.
 
