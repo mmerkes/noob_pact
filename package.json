@@ -13,7 +13,6 @@
   },
   "homepage": "https://github.com/mmerkes/noob_pact",
   "bugs": {
-    "mail": "matt.merkes@gmail.com",
     "url": "http://github.com/mmerkes/noob_pact/issues"
   },
   "license": "MIT",
@@ -40,5 +39,8 @@
   ],
   "engines": {
     "node": ">=0.6"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
