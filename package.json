@@ -1,6 +1,6 @@
 {
   "name": "noob_pact",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple promise library aimed at moving toward being Promises/A+ compliant",
   "main": "pact.js",
   "scripts": {
