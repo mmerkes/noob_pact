@@ -1,21 +1,44 @@
 {
   "name": "noob_pact",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple promise library aimed at moving toward being Promises/A+ compliant",
   "main": "pact.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/promises_spec.js"
   },
-  "author": "",
+  "author": "mmerkes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmerkes/noob_pact"
+  },
+  "homepage": "https://github.com/mmerkes/noob_pact",
+  "bugs": {
+    "mail": "matt.merkes@gmail.com",
+    "url": "http://github.com/mmerkes/noob_pact/issues"
+  },
   "license": "MIT",
   "devDependencies": {
     "grunt-simple-mocha": "~0.4.0",
     "chai": "~1.9.0",
     "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.8.0"
-  },
-  "dependencies": {
+    "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-copy": "~0.5.0",
     "grunt-contrib-clean": "~0.5.0"
+  },
+  "dependencies": {},
+  "keywords": [
+    "promise",
+    "promises",
+    "promises-a",
+    "promises-aplus",
+    "deferred",
+    "future",
+    "async",
+    "flow control",
+    "browser",
+    "node"
+  ],
+  "engines": {
+    "node": ">=0.6"
   }
 }
