@@ -4,6 +4,8 @@ var Promise = require('../noob_pact.js'),
     chai = require('chai'),
     expect = chai.expect;
 
+Promise.prototype.celebrate();
+
 describe('Promises should allow the user to set onFulfilled, onRejected, and always' +
   'which should be called when the promise resolves or rejects', function() {
   it('should create a promise', function() {
@@ -28,7 +30,7 @@ describe('Promises should allow the user to set onFulfilled, onRejected, and alw
     var P = new Promise();
 
     expect( P.queue ).to.equal(undefined);
-    expect( P.completePromise ).to.equal(undefined);
+    expect( P._completePromise ).to.equal(undefined);
   });
 
   // then - resolve
